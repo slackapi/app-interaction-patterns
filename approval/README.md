@@ -1,5 +1,11 @@
 # Blueprint: Approval
 
+![](approval-confirm.gif)
+*Approval confirmation*
+
+![](approval-reject.gif)
+*Approval rejection*
+
 ### Examples
 
 * Confirmation of a reservation, booking or appointment
@@ -9,14 +15,6 @@
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
-
-## Templates
-
-### Approval
-![](approval-confirm.gif)
-
-### Rejection
-![](approval-reject.gif)
 
 ### Approval request
 

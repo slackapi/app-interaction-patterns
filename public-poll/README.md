@@ -1,4 +1,7 @@
-# Blueprint: Public Poll in channel
+# Blueprint: Public poll in channel
+
+![](public-poll.gif)
+*Public poll in channel*
 
 ### Examples
 
@@ -8,10 +11,6 @@
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
-
-## Templates
-
-![](public-poll.gif)
 
 ### Poll
 

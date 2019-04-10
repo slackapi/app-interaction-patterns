@@ -1,5 +1,8 @@
 # Blueprint: Create task from Message Action
 
+![](private-poll.gif)
+*Create task from Message Action*
+
 ### Examples
 
 * Create a task from an existing message
@@ -10,10 +13,6 @@
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
 * [Message Actions](https://api.slack.com/actions)
-
-## Templates
-
-TODO
 
 ### Open Dialog from Message Action
 
