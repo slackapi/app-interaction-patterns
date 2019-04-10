@@ -35,4 +35,12 @@
 
 * [`bot`](https://api.slack.com/scopes/bot)
 
+## Recommended usage
 
+| Message Type  | Recommended |
+| ------------- | ------------- |
+| Public Channel | :white_check_mark: | 
+| Private Channel | :white_check_mark: | 
+| Thread | :white_check_mark: |
+| DM | :white_check_mark: |
+| Group DM | :white_check_mark: |
