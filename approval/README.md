@@ -12,7 +12,10 @@
 
 ## Templates
 
+### Approval
 ![](approval-confirm.gif)
+
+### Rejection
 ![](approval-reject.gif)
 
 ### Approval request
