@@ -1,5 +1,7 @@
 # Blueprint: Private Poll in a DM
 
+![](private-poll.gif)
+
 ### Examples
 
 * TODO
@@ -8,10 +10,6 @@
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
-
-## Templates
-
-TODO
 
 ### Poll
 
@@ -34,5 +32,15 @@ TODO
 ## List of required scopes
 
 * [`bot`](https://api.slack.com/scopes/bot)
+
+## Recommended usage
+
+| Message Type  | Recommended |
+| ------------- | ------------- |
+| Public Channel | :x: | 
+| Private Channel | :x: | 
+| Thread | :x: |
+| DM | :white_check_mark: |
+| Group DM | :x: |
 
 

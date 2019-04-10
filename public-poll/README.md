@@ -11,7 +11,7 @@
 
 ## Templates
 
-TODO
+![](public-poll.gif)
 
 ### Poll
 
@@ -34,5 +34,15 @@ TODO
 ## List of required scopes
 
 * [`bot`](https://api.slack.com/scopes/bot)
+
+## Recommended usage
+
+| Message Type  | Recommended |
+| ------------- | ------------- |
+| Public Channel | :white_check_mark: | 
+| Private Channel | :white_check_mark: | 
+| Thread | :x: |
+| DM | :x: |
+| Group DM | :white_check_mark: |
 
 
