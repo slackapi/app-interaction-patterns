@@ -1,0 +1,33 @@
+{
+    "callback_id": "dialog:reject",
+    "title": "Reject request",
+    "submit_label": "Reject",
+    "elements": [
+      {
+        "label": "Select a reason",
+        "type": "select",
+        "name": "reject:reason",
+        "options": [
+          {
+            "label": "Out of Policy",
+            "value": "reject:reason:out-of-policy"
+          },
+          {
+            "label": "Invalid request",
+            "value": "reject:reason:invalid-request"
+          },
+          {
+            "label": "Other",
+            "value": "reject:reason:other"
+          }
+        ]
+      },
+      {
+        "label": "Comment",
+        "name": "comment",
+        "type": "textarea",
+        "hint": "Provide additional information.",
+        "optional": true
+      }
+    ]
+  }
