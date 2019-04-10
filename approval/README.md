@@ -12,8 +12,8 @@
 
 ## Templates
 
-[![Blueprint Approval Notice](https://www.youtube.com/upload_thumbnail?v=rTn2hlrBAD0&t=hqdefault&ts=1551149631375)](https://youtu.be/rTn2hlrBAD0 "Blueprint Approval Notice")
-TODO
+![](approval-confirm.gif)
+![](approval-reject.gif)
 
 ### Approval request
 
