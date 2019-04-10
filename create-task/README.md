@@ -1,6 +1,6 @@
 # Blueprint: Create task from Message Action
 
-![](private-poll.gif)
+![](create-task.gif)  
 *Create task from Message Action*
 
 ### Examples

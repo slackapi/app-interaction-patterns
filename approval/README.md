@@ -1,9 +1,9 @@
 # Blueprint: Approval
 
-![](approval-confirm.gif)
+![](approval-confirm.gif)  
 *Approval confirmation*
 
-![](approval-reject.gif)
+![](approval-reject.gif)  
 *Approval rejection*
 
 ### Examples

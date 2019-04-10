@@ -10,6 +10,6 @@ This is a collection of common workflows
 
 ## Task & ticket management
 
-* [Create a task or ticket from Message Action](./approval/README.md)
+* [Create a task or ticket from Message Action](./create-task/README.md)
 
 ## HR
