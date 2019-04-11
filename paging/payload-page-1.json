@@ -1,0 +1,291 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "We found *8 Hotels* in New Orleans, LA from *12/14 to 12/17*"
+      },
+      "accessory": {
+        "type": "overflow",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "emoji": true,
+              "text": ":mag: Edit search"
+            },
+            "value": "edit_search"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "emoji": true,
+              "text": ":pencil2: Edit filters"
+            },
+            "value": "edit_filters"
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*<fakeLink.toHotelPage.com|Grand Hotel>*\n★★★★★\n$380 per night\nRated: 9.3 - Excellent"
+      },
+      "accessory": {
+        "type": "image",
+        "image_url": "https://images.unsplash.com/photo-1515362778563-6a8d0e44bc0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "alt_text": "Grand Hotel thumbnail"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "image",
+          "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgentLocationMarker.png",
+          "alt_text": "Location Pin Icon"
+        },
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Location: Downtown"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Book now"
+          },
+          "style": "primary",
+          "value": "click_me_123"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "See available rooms"
+          },
+          "value": "click_me_123"
+        },
+        {
+          "type": "overflow",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "View gallery",
+                "emoji": true
+              },
+              "value": "value-0"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Show on map",
+                "emoji": true
+              },
+              "value": "value-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*<fakeLink.toHotelPage.com|New Orleans Inn>*\n★★★★★\n$420 per night\nRated: 9.0 - Excellent"
+      },
+      "accessory": {
+        "type": "image",
+        "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "alt_text": "New Orleans Inn thumbnail"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "image",
+          "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgentLocationMarker.png",
+          "alt_text": "Location Pin Icon"
+        },
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Location: Downtown"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Book now"
+          },
+          "style": "primary",
+          "value": "click_me_123"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "See available rooms"
+          },
+          "value": "click_me_123"
+        },
+        {
+          "type": "overflow",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "View gallery",
+                "emoji": true
+              },
+              "value": "value-0"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Show on map",
+                "emoji": true
+              },
+              "value": "value-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*<fakeLink.toHotelPage.com|Royal Queens Hotel>*\n★★★★★\n$370 per night\nRated: 8.7 - Excellent"
+      },
+      "accessory": {
+        "type": "image",
+        "image_url": "https://images.unsplash.com/photo-1508253578933-20b529302151?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "alt_text": "Royal Queens Hotel thumbnail"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "image",
+          "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgentLocationMarker.png",
+          "alt_text": "Location Pin Icon"
+        },
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Location: French Quarter"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Book now"
+          },
+          "style": "primary",
+          "value": "click_me_123"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "See available rooms"
+          },
+          "value": "click_me_123"
+        },
+        {
+          "type": "overflow",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "View gallery",
+                "emoji": true
+              },
+              "value": "value-0"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Show on map",
+                "emoji": true
+              },
+              "value": "value-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Results 4-6 of 8"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "< Previous"
+          },
+          "value": "previous"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Next >"
+          },
+          "value": "next"
+        }
+      ]
+    }
+  ]

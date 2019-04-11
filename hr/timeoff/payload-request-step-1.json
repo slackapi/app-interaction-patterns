@@ -1,0 +1,115 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Request your time off*"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Choose your request type"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Request type",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Paid Time Off",
+              "emoji": true
+            },
+            "value": "pto"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Jury Duty",
+              "emoji": true
+            },
+            "value": "jury_duty"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Volunteering Day",
+              "emoji": true
+            },
+            "value": "volunteering_day"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Paid Time Off",
+            "emoji": true
+          },
+          "value": "pto"
+        }
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Select *Start Date*"
+      },
+      "accessory": {
+        "type": "datepicker",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select date",
+          "emoji": true
+        }
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Select *End Date*"
+      },
+      "accessory": {
+        "type": "datepicker",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select date",
+          "emoji": true
+        }
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Send request",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "submit"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Cancel request",
+            "emoji": true
+          },
+          "value": "cancel"
+        }
+      ]
+    }
+  ]

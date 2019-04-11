@@ -1,0 +1,22 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Your request for *Paid Time Off* has been sent."
+      }
+    },
+    {
+      "type": "section",
+      "fields": [
+        {
+          "type": "mrkdwn",
+          "text": "*Start Date:*\nApr 10, 2019"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*End Date:*\nApr 12, 2019"
+        }
+      ]
+    }
+  ]

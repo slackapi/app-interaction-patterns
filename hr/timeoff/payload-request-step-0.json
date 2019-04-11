@@ -1,0 +1,53 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Request your time off*"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Choose your request type"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Request type",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Paid Time Off",
+              "emoji": true
+            },
+            "value": "pto"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Jury Duty",
+              "emoji": true
+            },
+            "value": "jury_duty"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Volunteering Day",
+              "emoji": true
+            },
+            "value": "volunteering_day"
+          }
+        ]
+      }
+    }
+  ]
