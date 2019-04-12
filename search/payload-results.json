@@ -1,0 +1,282 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "We found *8 Hotels* in New Orleans, LA from *12/14 to 12/17*"
+      },
+      "accessory": {
+        "type": "overflow",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "emoji": true,
+              "text": ":mag: Edit search"
+            },
+            "value": "edit_search"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "emoji": true,
+              "text": ":pencil2: Edit filters"
+            },
+            "value": "edit_filters"
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*<fakeLink.toHotelPage.com|Windsor Court Hotel>*\n★★★★★\n$340 per night\nRated: 9.4 - Excellent"
+      },
+      "accessory": {
+        "type": "image",
+        "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgent_1.png",
+        "alt_text": "Windsor Court Hotel thumbnail"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "image",
+          "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgentLocationMarker.png",
+          "alt_text": "Location Pin Icon"
+        },
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Location: Central Business District"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Book now"
+          },
+          "style": "primary",
+          "value": "click"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "See available rooms"
+          },
+          "value": "click"
+        },
+        {
+          "type": "overflow",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "View gallery",
+                "emoji": true
+              },
+              "value": "value-0"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Show on map",
+                "emoji": true
+              },
+              "value": "value-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*<fakeLink.toHotelPage.com|The Ritz-Carlton New Orleans>*\n★★★★★\n$340 per night\nRated: 9.1 - Excellent"
+      },
+      "accessory": {
+        "type": "image",
+        "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgent_2.png",
+        "alt_text": "Ritz-Carlton New Orleans thumbnail"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "image",
+          "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgentLocationMarker.png",
+          "alt_text": "Location Pin Icon"
+        },
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Location: French Quarter"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Book now"
+          },
+          "style": "primary",
+          "value": "click_me_123"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "See available rooms"
+          },
+          "value": "click_me_123"
+        },
+        {
+          "type": "overflow",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "View gallery",
+                "emoji": true
+              },
+              "value": "value-0"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Show on map",
+                "emoji": true
+              },
+              "value": "value-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*<fakeLink.toHotelPage.com|Omni Royal Orleans Hotel>*\n★★★★★\n$419 per night\nRated: 8.8 - Excellent"
+      },
+      "accessory": {
+        "type": "image",
+        "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgent_3.png",
+        "alt_text": "Omni Royal Orleans Hotel thumbnail"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "image",
+          "image_url": "https://api.slack.com/img/blocks/bkb_template_images/tripAgentLocationMarker.png",
+          "alt_text": "Location Pin Icon"
+        },
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Location: French Quarter"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Book now"
+          },
+          "style": "primary",
+          "value": "click_me_123"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "See available rooms"
+          },
+          "value": "click_me_123"
+        },
+        {
+          "type": "overflow",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "View gallery",
+                "emoji": true
+              },
+              "value": "value-0"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Show on map",
+                "emoji": true
+              },
+              "value": "value-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Results 1-3 of 8"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Next >"
+          },
+          "value": "next"
+        }
+      ]
+    }
+  ]

@@ -32,8 +32,7 @@
         "placeholder": {
           "type": "plain_text",
           "text": "Select date"
-        },
-        "initial_date": "2019-04-14"
+        }
       }
     },
     {
@@ -47,8 +46,7 @@
         "placeholder": {
           "type": "plain_text",
           "text": "Select date"
-        },
-        "initial_date": "2019-04-17"
+        }
       }
     },
     {
@@ -61,10 +59,11 @@
           "type": "button",
           "text": {
             "type": "plain_text",
-            "text": "Update",
+            "text": "Search hotels",
             "emoji": true
           },
-          "value": "udpate"
+          "style": "primary",
+          "value": "search"
         }
       ]
     }
