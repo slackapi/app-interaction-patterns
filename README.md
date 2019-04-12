@@ -1,6 +1,6 @@
 # Block Kit Blueprints
 
-This is a collection of common workflows
+This is a collection of common workflows and actions taken within the context of Slack.
 
 ## Common workflows
 
