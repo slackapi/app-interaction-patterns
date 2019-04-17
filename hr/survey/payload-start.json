@@ -1,0 +1,33 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Hi <fakeLink.toUser.com|David>!\n\nOur Q1 Pulse Survey launches today. Please take a few minutes to give your honest opinion on how things are going.\n\nYou have until Friday, April 19 to respond. Thank you!"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Start survey",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "start"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":alarm_clock: Remind me later",
+            "emoji": true
+          },
+          "value": "remind"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,104 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Question 1*"
+      },
+      "accessory": {
+        "type": "overflow",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": ":back: Previous",
+              "emoji": true
+            },
+            "value": "previous"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": ":x: Cancel",
+              "emoji": true
+            },
+            "value": "cancel"
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "This job is a good fit for a person like me."
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Fully agree",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "5"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Agree",
+            "emoji": true
+          },
+          "value": "4"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Neutral",
+            "emoji": true
+          },
+          "value": "3"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Disagree",
+            "emoji": true
+          },
+          "value": "2"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Fully disagree",
+            "emoji": true
+          },
+          "style": "danger",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "Question 1 of 3"
+        }
+      ]
+    }
+  ]

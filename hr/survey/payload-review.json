@@ -1,0 +1,235 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Here are your answers, <fakeLink.toUser.com|David>:"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Question 1*\nThis job is a good fit for a person like me."
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select answer",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Fully agree",
+              "emoji": true
+            },
+            "value": "1:5"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Agree",
+              "emoji": true
+            },
+            "value": "1:4"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Neutral",
+              "emoji": true
+            },
+            "value": "1:3"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Disagree",
+              "emoji": true
+            },
+            "value": "1:2"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Fully disagree",
+              "emoji": true
+            },
+            "value": "1:1"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Fully agree",
+            "emoji": true
+          },
+          "value": "1:5"
+        }
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Question 2*\nThe atmosphere here is good."
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select answer",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Fully agree",
+              "emoji": true
+            },
+            "value": "2:5"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Agree",
+              "emoji": true
+            },
+            "value": "2:4"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Neutral",
+              "emoji": true
+            },
+            "value": "2:3"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Disagree",
+              "emoji": true
+            },
+            "value": "2:2"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Fully disagree",
+              "emoji": true
+            },
+            "value": "2:1"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Agree",
+            "emoji": true
+          },
+          "value": "2:4"
+        }
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Question 3*\nI personally agree with the organization's values."
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select answer",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Fully agree",
+              "emoji": true
+            },
+            "value": "3:5"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Agree",
+              "emoji": true
+            },
+            "value": "3:4"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Neutral",
+              "emoji": true
+            },
+            "value": "3:3"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Disagree",
+              "emoji": true
+            },
+            "value": "3:2"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Fully disagree",
+              "emoji": true
+            },
+            "value": "3:1"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Agree",
+            "emoji": true
+          },
+          "value": "3:4"
+        }
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Submit answers",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "submit"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Cancel",
+            "emoji": true
+          },
+          "style": "danger",
+          "value": "cancel"
+        }
+      ]
+    }
+  ]

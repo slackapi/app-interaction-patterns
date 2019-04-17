@@ -1,0 +1,72 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Thank you, <fakeLink.toUser.com|David>!*"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Question 1*\nThis job is a good fit for a person like me."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "*Answer:* Fully agree"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Question 2*\nThe atmosphere here is good."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "*Answer:* Agree"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Question 3*\nI personally agree with the organization's values."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "*Answer:* Agree"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": ":white_check_mark: You submitted this survey on 03/14/2019 at 03:45pm"
+        }
+      ]
+    }
+  ]
