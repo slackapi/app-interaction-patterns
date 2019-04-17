@@ -16,4 +16,5 @@ This is a collection of common workflows and actions taken within the context of
 
 ## HR
 
+* [Perform a culture survey](./hr/survey/README.md)
 * [Requesting time off](./hr/timeoff/README.md)
