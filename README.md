@@ -18,3 +18,7 @@ This is a collection of common workflows and actions taken within the context of
 
 * [Perform a culture survey](./hr/survey/README.md)
 * [Requesting time off](./hr/timeoff/README.md)
+
+## Other
+
+* [List of common used emoji icons](https://gist.slack-github.com/dpichsenmeister/3e280657ab3b0c86d1858c95b8a79a6c)
