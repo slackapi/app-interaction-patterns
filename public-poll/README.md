@@ -3,6 +3,8 @@
 ![](public-poll.gif)  
 *Public poll in channel*
 
+🎥 [High Resolution screencast](public-poll.mp4)
+
 ### Examples
 
 * TODO

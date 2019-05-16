@@ -3,8 +3,12 @@
 ![](approval-confirm.gif)  
 *Approval confirmation*
 
+🎥 [High Resolution screencast](approval-confirm.mp4)
+
 ![](approval-reject.gif)  
 *Approval rejection*
+
+🎥 [High Resolution screencast](approval-reject.mp4)
 
 ### Examples
 
