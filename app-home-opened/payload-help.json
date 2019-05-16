@@ -1,0 +1,125 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":wave: *Hi there!*\n\n Here are some actions you can take from here."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "📋 *List tasks* \n\n View a list of tasks"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Choose task list",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Due today",
+              "emoji": true
+            },
+            "value": "value-1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "My tasks",
+              "emoji": true
+            },
+            "value": "value-2"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "All tasks",
+              "emoji": true
+            },
+            "value": "value-2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "⚙️ *Settings* \n\n Edit your settings or notification preferences"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Edit settings",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Notifications",
+              "emoji": true
+            },
+            "value": "value-1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Settings",
+              "emoji": true
+            },
+            "value": "value-2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "📥 *Send feedback* \n\n Give us feedback or ask for help"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Send feedback"
+        },
+        "value": "click_me_123"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Create a new task",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "click_me"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "FAQ",
+            "emoji": true
+          },
+          "value": "click_me_123"
+        }
+      ]
+    }
+  ]

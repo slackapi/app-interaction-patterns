@@ -4,6 +4,7 @@ This is a collection of common workflows and actions taken within the context of
 
 ## Common workflows
 
+* [Onboarding (`app_home_opened` event)](./app-home-opened/README.md)
 * [Approval Notice](./approval/README.md)
 * [Paging](./paging/README.md)
 * [Private Poll](./private-poll/README.md)
