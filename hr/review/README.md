@@ -3,7 +3,7 @@
 ![](hr-review.gif)  
 *Peer review*
 
-[High Resolution screencast](hr-review.mp4)
+🎥 [High Resolution screencast](hr-review.mp4)
 
 ### Examples
 
