@@ -1,0 +1,168 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Hi <fakelink.toUser.com|David>!* Here's how I can help you:"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":dollar: *Pay*\nView latest pay info, history and summary"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Choose",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Latest Pay",
+              "emoji": true
+            },
+            "value": "pay"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Summary",
+              "emoji": true
+            },
+            "value": "value-1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Pay History",
+              "emoji": true
+            },
+            "value": "value-1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":speaking_head_in_silhouette: *Peer reviews*\nGive and receive feedback from your colleagues"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Choose",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Give feedback",
+              "emoji": true
+            },
+            "value": "give_feedback"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Request feedback",
+              "emoji": true
+            },
+            "value": "value-1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Your reviews",
+              "emoji": true
+            },
+            "value": "value-1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":clock1: *Time off*\nManage and view your time off requests"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Choose",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Request time off",
+              "emoji": true
+            },
+            "value": "pay"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "See requests",
+              "emoji": true
+            },
+            "value": "value-1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Your reviews",
+              "emoji": true
+            },
+            "value": "value-1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":gear: *Settings*\nNotifications, Account settings and more"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Choose",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Notifications",
+              "emoji": true
+            },
+            "value": "value-0"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Choice 2",
+              "emoji": true
+            },
+            "value": "value-1"
+          }
+        ]
+      }
+    }
+]

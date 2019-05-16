@@ -1,0 +1,24 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":mailbox_with_mail: *Your feedback has been sent to <fakelink.toUser.com|@John> and his manager <fakelink.toUser.com|@Ally>.*"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ">>> One of your most impactful moments were the insights you gleaned based on Project X. It showed the power of user testing in shaping a feature roadmap and increases the likelihood that we satisfy and delight our users. I'd love to see you do more of this."
+      },
+      "accessory": {
+        "type": "image",
+        "image_url": "https://static.thenounproject.com/png/347639-200.png",
+        "alt_text": "palm tree"
+      }
+    }
+]
