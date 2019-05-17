@@ -3,6 +3,8 @@
 ![](app-home-opened.gif)  
 *`app_home_opened` event example*
 
+🎥 [High Resolution screencast](app-home-opened.mp4)
+
 ### Examples
 
 * Onboarding new users once they open your App's DM for the first time
@@ -29,14 +31,14 @@
 
 ### 2. Show a help message when a user opens your App's DM
 
-_Note: Only post a help message if there was some considerable time between the last interaction with the user_
+_Note: Only post a help message if there was some considerable time between the last interaction with the user and the last message wasn't a help message itself. Additionally give the user an option to opt-out of these messages by e.g. providing a "Don't show this again" button_
 
 * [payload.json](payload-help.json)
 * [Open in Block Kit Builder](https://api.slack.com/tools/block-kit-builder?blocks=%5B%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%3Awave%3A%20*Hi%20there!*%5Cn%5Cn%20Here%20are%20some%20actions%20you%20can%20take%20from%20here.%22%7D%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%F0%9F%93%8B%20*List%20tasks*%20%5Cn%5Cn%20View%20a%20list%20of%20tasks%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22static_select%22%2C%22placeholder%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Choose%20task%20list%22%2C%22emoji%22%3Atrue%7D%2C%22options%22%3A%5B%7B%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Due%20today%22%2C%22emoji%22%3Atrue%7D%2C%22value%22%3A%22value-1%22%7D%2C%7B%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22My%20tasks%22%2C%22emoji%22%3Atrue%7D%2C%22value%22%3A%22value-2%22%7D%2C%7B%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22All%20tasks%22%2C%22emoji%22%3Atrue%7D%2C%22value%22%3A%22value-2%22%7D%5D%7D%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%E2%9A%99%EF%B8%8F%20*Settings*%20%5Cn%5Cn%20Edit%20your%20settings%20or%20notification%20preferences%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22static_select%22%2C%22placeholder%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Edit%20settings%22%2C%22emoji%22%3Atrue%7D%2C%22options%22%3A%5B%7B%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Notifications%22%2C%22emoji%22%3Atrue%7D%2C%22value%22%3A%22value-1%22%7D%2C%7B%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Settings%22%2C%22emoji%22%3Atrue%7D%2C%22value%22%3A%22value-2%22%7D%5D%7D%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%F0%9F%93%A5%20*Send%20feedback*%20%5Cn%5Cn%20Give%20us%20feedback%20or%20ask%20for%20help%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22button%22%2C%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Send%20feedback%22%7D%2C%22value%22%3A%22click_me_123%22%7D%7D%2C%7B%22type%22%3A%22divider%22%7D%2C%7B%22type%22%3A%22actions%22%2C%22elements%22%3A%5B%7B%22type%22%3A%22button%22%2C%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Create%20a%20new%20task%22%2C%22emoji%22%3Atrue%7D%2C%22style%22%3A%22primary%22%2C%22value%22%3A%22click_me%22%7D%2C%7B%22type%22%3A%22button%22%2C%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22FAQ%22%2C%22emoji%22%3Atrue%7D%2C%22value%22%3A%22click_me_123%22%7D%5D%7D%5D)
 
 #### Methods
 
-* [`chat.postEphemeral`](https://api.slack.com/methods/chat.postEphemeral)
+* [`chat.postMesssage`](https://api.slack.com/methods/chat.postMessage)
 
 ## List of required scopes
 

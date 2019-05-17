@@ -3,6 +3,8 @@
 ![](hr-survey.gif)  
 *HR culture survey*
 
+🎥 [High Resolution screencast](hr-survey.mp4)
+
 ### Example
 
 Performing a culture survey in Slack

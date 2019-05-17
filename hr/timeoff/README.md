@@ -3,6 +3,8 @@
 ![](hr-timeoff.gif)  
 *HR time off request*
 
+🎥 [High Resolution screencast](hr-timeoff.mp4)
+
 ### Examples
 
 * Requesting time off in Slack
