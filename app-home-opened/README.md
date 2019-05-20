@@ -5,6 +5,8 @@
 
 🎥 [High Resolution screencast](app-home-opened.mp4)
 
+💻 [Check out code example on Glitch](https://glitch.com/~app-home-opened)
+
 ### Examples
 
 * Onboarding new users once they open your App's DM for the first time

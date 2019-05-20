@@ -3,6 +3,8 @@
 ![](search.gif)  
 *Perform search action*
 
+🎥 [High Resolution screencast](search.mp4)
+
 ### Examples
 
 * Perform a search action with a Slash Command
