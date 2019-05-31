@@ -10,10 +10,15 @@ This is a collection of common workflows and actions taken within the context of
 * [Private Poll](./private-poll/README.md)
 * [Public Poll](./public-poll/README.md)
 * [Search](./search/README.md)
+* [Details View in ephemeral message](./details-ephemeral/README.md)
+* [Details View in Thread](./details-thread/README.md)
 
 ## Task & ticket management
 
-* [Create a task or ticket from Message Action](./create-task/README.md)
+* [Create a task or ticket from Message Action](./task-and-ticket-management/create-task/README.md)
+* TODO: Create a task or ticket from Slash Command
+* TODO: Show list of tasks
+* TODO: Edit task
 
 ## HR
 

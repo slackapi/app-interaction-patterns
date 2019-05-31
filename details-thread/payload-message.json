@@ -1,0 +1,74 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Hey there!*\nWe captured a new lead for you."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Name*: David Pichsenmeister\n*Email*: <fakelink.toUser.com|davidpichsenmeister@example.com>\n*Company*: Demo Corp\n*Product Interest*: Marketing Automation"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View on Web :arrow_upper_right:",
+          "emoji": true
+        },
+        "value": "click_me_123"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": ":calendar: *Date:* May 17, 2019 3:14pm"
+        },
+        {
+          "type": "mrkdwn",
+          "text": ":envelope_with_arrow: *Inbound:* Website"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "users_select",
+          "placeholder": {
+            "type": "plain_text",
+            "text": "Assign to",
+            "emoji": true
+          }
+        },
+        {
+          "type": "channels_select",
+          "placeholder": {
+            "type": "plain_text",
+            "text": "Post to channel",
+            "emoji": true
+          }
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Show details",
+            "emoji": true
+          },
+          "value": "show_details"
+        }
+      ]
+    }
+  ]
