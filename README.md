@@ -6,6 +6,7 @@ This is a collection of common workflows and actions taken within the context of
 
 * [Onboarding (`app_home_opened` event)](./app-home-opened/README.md)
 * [Help menu (`app_mention` event)](./app-mention/README.md)
+* TODO: App joins channel
 * [Approval Notice](./approval/README.md)
 * [Paging](./paging/README.md)
 * [Private Poll](./private-poll/README.md)
@@ -13,13 +14,12 @@ This is a collection of common workflows and actions taken within the context of
 * [Search](./search/README.md)
 * [Details View in ephemeral message](./details-ephemeral/README.md)
 * [Details View in Thread](./details-thread/README.md)
+* [Expand & Collapse](./expand-collapse/README.md)
 
 ## Task & ticket management
 
-* [Create a task or ticket from Message Action](./task-and-ticket-management/create-task/README.md)
-* TODO: Create a task or ticket from Slash Command
-* TODO: Show list of tasks
-* TODO: Edit task
+* [Create a task or ticket from Message Action](./task-and-ticket-management/create-task-message-action/README.md)
+* [Create a task or ticket from Slash Command](./task-and-ticket-management/create-task-slash-command/README.md)
 
 ## HR
 
@@ -29,4 +29,4 @@ This is a collection of common workflows and actions taken within the context of
 
 ## Other
 
-* [List of common used emoji icons](https://gist.slack-github.com/dpichsenmeister/3e280657ab3b0c86d1858c95b8a79a6c)
+* [List of common used emoji icons](https://gist.github.com/pichsenmeister/50639f68e8bbf9276efdb18fba9e13d2)

@@ -1,0 +1,45 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Your task <fakelink.toUser.com|*Review landing page design*> has been created :ok_hand:"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": ":pencil: Edit",
+          "emoji": true
+        },
+        "value": "edit"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "*Assignee:* <fakeLink.toUser.com|@David>"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Priority:* :arrow_double_up: High"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Labels:* Design"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Description*\nPlease review the new landing page design"
+      }
+    }
+  ]

@@ -1,0 +1,45 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "A build error was triggered for <fakelink.toUrl.com|build #112>\n```ERROR: Invocation error for command '/build/desktop-app/setup.py' (exited with code 1)```"
+      },
+      "fields": [
+        {
+          "type": "mrkdwn",
+          "text": "*Branch*\ndesktop-app/master"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Author*\n<fakelink.toUser.com|@David>"
+        }
+      ]
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": ":red_circle: Build failed at March 14 at 1:59PM"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Expand"
+          },
+          "value": "expand"
+        }
+      ]
+    }
+]

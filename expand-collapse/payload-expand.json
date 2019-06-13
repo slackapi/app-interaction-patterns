@@ -1,0 +1,60 @@
+[
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "A build error was triggered for <fakelink.toUrl.com|build #112>\n```ERROR: Invocation error for command '/build/desktop-app/setup.py' (exited with code 1)```"
+      },
+      "fields": [
+        {
+          "type": "mrkdwn",
+          "text": "*Branch*\ndesktop-app/master"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Author*\n<fakelink.toUser.com|@David>"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Version*\n3.14.15"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*Commit*\n<fakelink.toUrl.com|cedbadc8550>"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Stack trace*\n```During handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\nFile '<string>', line 1, in <module>\nFile '/tmp/pip-install-w9661i00/pycares/setup.py', line 45, in <module>\nzip_safe         = False\nFile '/usr/local/lib/python3.7/site-packages/setuptools/__init__.py', line 144, in setup\n_install_setup_requires(attrs)\nFile '/usr/local/lib/python3.7/site-packages/setuptools/__init__.py', line 139, in _install_setup_requires\ndist.fetch_build_eggs(dist.setup_requires)\nFile '/usr/local/lib/python3.7/site-packages/setuptools/dist.py', line 717, in fetch_build_eggs\nreplace_conflicting=True,\nFile '/usr/local/lib/python3.7/site-packages/pkg_resources/__init__.py', line 782, in resolve\nreplace_conflicting=replace_conflicting\nFile '/usr/local/lib/python3.7/site-packages/pkg_resources/__init__.py', line 1065, in best_match\nreturn self.obtain(req, installer)\ndistutils.errors.DistutilsError: Setup script exited with error: command 'gcc' failed with exit status 1\n----------------------------------------\n\nERROR: Command 'python setup.py egg_info' failed with error code 1 in /tmp/pip-install-w9661i00/pycares/```"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": ":red_circle: Build failed at March 14 at 1:59PM"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "emoji": true,
+            "text": "Collapse"
+          },
+          "value": "collapse"
+        }
+      ]
+    }
+]
