@@ -42,7 +42,25 @@
 			"text": "Approve"
 		  },
 		  "style": "primary",
-		  "value": "approve"
+		  "value": "approve",
+		  "confirm": {
+			"title": {
+				"type": "plain_text",
+				"text": "Approve"
+			},
+			"text": {
+				"type": "mrkdwn",
+				"text": "You are about to approve this request."
+			},
+			"confirm": {
+				"type": "plain_text",
+				"text": "Yes"
+			},
+			"deny": {
+				"type": "plain_text",
+				"text": "Cancel"
+			}
+		  }
 		},
 		{
 		  "type": "button",
