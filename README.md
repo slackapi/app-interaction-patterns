@@ -6,7 +6,6 @@ This is a collection of common workflows and actions taken within the context of
 
 * [Onboarding (`app_home_opened` event)](./app-home-opened/README.md)
 * [Help menu (`app_mention` event)](./app-mention/README.md)
-* TODO: App joins channel
 * [Approval Notice](./approval/README.md)
 * [Paging](./paging/README.md)
 * [Private Poll](./private-poll/README.md)
