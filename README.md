@@ -1,4 +1,4 @@
-# App Interactivity Blueprints
+# App interaction patterns
 
 This is a collection of common workflows and interaction patterns for Slack apps.
 
