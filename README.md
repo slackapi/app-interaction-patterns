@@ -6,7 +6,7 @@ We also recommend to check out our other resources on building great Slack app e
 
 * [Build - a guide to crafting Slack apps](https://slack.dev/guides/Build.pdf)
 * [App UI guidelines](https://slack.dev/guides/AppUIGuidelines.pdf)
-* [Block Kit Message UI concepts](https://docs.google.com/presentation/d/10IGKfJzEFhOGRGzsng4SC8fyU8ASkb71SgE7Q6jnRyQ/edit?usp=sharing)
+* [Block Kit message UI concepts](https://docs.google.com/presentation/d/10IGKfJzEFhOGRGzsng4SC8fyU8ASkb71SgE7Q6jnRyQ/edit?usp=sharing)
 
 ## Common workflows
 
