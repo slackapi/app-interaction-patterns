@@ -9,11 +9,18 @@
 
 * Perform a search action with a Slash Command
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
 * [Slash Commands](https://api.slack.com/slash-commands)
+
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
+* [`commands`](https://api.slack.com/scopes/commands)
+
+## Implementation overview
 
 ### 1. Show search prompt triggered by Slash Command
 
@@ -42,17 +49,3 @@
 
 * [`chat.update`](https://api.slack.com/methods/chat.update)
 
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
-* [`commands`](https://api.slack.com/scopes/commands)
-
-## Recommended usage
-
-| Message Type  | Recommended |
-| ------------- | ------------- |
-| Public Channel | :white_check_mark: | 
-| Private Channel | :white_check_mark: | 
-| Thread | :white_check_mark: |
-| DM | :white_check_mark: |
-| Group DM | :white_check_mark: |

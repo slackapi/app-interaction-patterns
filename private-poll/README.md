@@ -7,12 +7,18 @@
 
 ### Examples
 
-* TODO
+* Sending a private poll to a user in Slack via App DM
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
+
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
+
+## Implementation overview
 
 ### 1. Poll
 
@@ -32,18 +38,5 @@
 
 * [`chat.update`](https://api.slack.com/methods/chat.update)
 
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
-
-## Recommended usage
-
-| Message Type  | Recommended |
-| ------------- | ------------- |
-| Public Channel | :x: | 
-| Private Channel | :x: | 
-| Thread | :x: |
-| DM | :white_check_mark: |
-| Group DM | :x: |
 
 

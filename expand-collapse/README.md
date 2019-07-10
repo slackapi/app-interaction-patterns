@@ -9,10 +9,16 @@
 
 * Simple expand & collapse functionality by updating the message
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
+
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
+
+## Implementation overview
 
 ### 1. Post message to channel
 
@@ -33,17 +39,4 @@
 
 * [`chat.update`](https://api.slack.com/methods/chat.update)
 
-## Recommended usage
-
-| Message Type  | Recommended |
-| ------------- | ------------- |
-| Public Channel | :white_check_mark: | 
-| Private Channel | :white_check_mark: | 
-| Thread | :white_check_mark: |
-| DM | :white_check_mark: |
-| Group DM | :white_check_mark: |
-
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
 

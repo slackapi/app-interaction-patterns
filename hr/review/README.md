@@ -10,10 +10,16 @@
 * Peer review your coworkers
 * Give feedback
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
+
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
+
+## Implementation overview
 
 ### 1. Provide an entry point to give feedback in e.g. a help message
 
@@ -40,17 +46,3 @@
 #### Methods
 
 * [`chat.postMessage`](https://api.slack.com/methods/chat.postMessage)
-
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
-
-## Recommended usage
-
-| Message Type  | Recommended |
-| ------------- | ------------- |
-| Public Channel | :x: | 
-| Private Channel | :x: | 
-| Thread | :x: |
-| DM | :white_check_mark: |
-| Group DM | :x: |

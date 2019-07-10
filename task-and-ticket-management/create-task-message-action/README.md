@@ -8,11 +8,15 @@
 * Create a task from an existing message
 * Create a ticket from an existing message
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
 * [Message Actions](https://api.slack.com/actions)
+
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
 
 ### 1. Open Dialog from Message Action
 
@@ -30,10 +34,6 @@
 #### Methods
 
 * [`chat.postMessage`](https://api.slack.com/methods/chat.postMessage)
-
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
 
 ## Recommended usage
 

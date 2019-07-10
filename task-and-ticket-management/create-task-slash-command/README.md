@@ -8,11 +8,18 @@
 * Create a task through a Slash Command
 * Create a ticket through a Slash Command
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
 * [Slash Commands](https://api.slack.com/slash-commands)
+
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
+* [`commands`](https://api.slack.com/scopes/commands)
+
+## Implementation overview
 
 ### 1. Open Dialog through Slash Command
 
@@ -30,18 +37,3 @@
 #### Methods
 
 * [`chat.postMessage`](https://api.slack.com/methods/chat.postMessage)
-
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
-* [`commands`](https://api.slack.com/scopes/commands)
-
-## Recommended usage
-
-| Message Type  | Recommended |
-| ------------- | ------------- |
-| Public Channel | :white_check_mark: | 
-| Private Channel | :white_check_mark: | 
-| Thread | :white_check_mark: |
-| DM | :white_check_mark: |
-| Group DM | :white_check_mark: |

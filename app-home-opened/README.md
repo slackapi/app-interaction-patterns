@@ -7,20 +7,38 @@
 
 💻 [Check out code example on Glitch](https://glitch.com/~app-home-opened)
 
+## Description
+
+Your Slack app lives in a virtual place called an App Home. Users find it by locating or adding your app in their channel sidebar, under the Apps heading.
+
+Your App Home is essentially a private, 1:1 conversation between a person and your bot user. It works just like a direct message between two users, using the same events and Web API methods.
+
+By enabling the `app_home_opened` event you are able to greet users with interactive, educational experiences and unlock the full potential of your App Home.
+
+More information around App Home can be found on our [API docs](https://api.slack.com/reference/app-home).
+
+_Please note that this event only works in your app's DM._
+
 ### Examples
 
 * Onboarding new users once they open your App's DM for the first time
 * Send a help message with important Call-to-actions once they open your App's DM
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
 * [Events API](https://api.slack.com/events-api)
 
-## Event subscriptions
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
+
+## Required event subscriptions
 
 * [`app_home_opened`](https://api.slack.com/events/app_home_opened)
+
+## Implemenation overview
 
 ### 1. Show a welcome message once users open your App's DM for the first time
 
@@ -41,17 +59,3 @@ _Note: Only post a help message if there was some considerable time between the 
 #### Methods
 
 * [`chat.postMesssage`](https://api.slack.com/methods/chat.postMessage)
-
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
-
-## Recommended usage
-
-| Message Type  | Recommended |
-| ------------- | ------------- |
-| Public Channel | :x: | 
-| Private Channel | :x: | 
-| Thread | :x: |
-| DM | :white_check_mark: |
-| Group DM | :x: |

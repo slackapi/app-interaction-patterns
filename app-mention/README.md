@@ -3,21 +3,33 @@
 ![](app-mention.gif)  
 *`app_mention` event example*
 
-🎥 [High Resolution screencast](app-mentionn.mp4)
+🎥 [High Resolution screencast](app-mention.mp4)
+
+## Description
+
+This event allows your app to subscribe to message events that directly mention your bot user in any channel or DM. This event contains the full text of the message in which your bot user was mentioned. You can both react to specific commands or respond with a general help message.
+
+More information around `app_mention` can be found on our [API docs](https://api.slack.com/events/app_mention).
 
 ### Examples
 
 * Offer a help menu when your App is mentioned in a channel
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
 * [Events API](https://api.slack.com/events-api)
 
-## Event subscriptions
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
+
+## Required event subscriptions
 
 * [`app_mention`](https://api.slack.com/events/app_mention)
+
+## Implementation overview
 
 ### 1. Add a reaction to the user's message
 
@@ -36,16 +48,3 @@ _Note: When sending the help message as an ephemeral message, only the user who 
 
 * [`chat.postEphemeral`](https://api.slack.com/methods/chat.postEphemeral)
 
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
-
-## Recommended usage
-
-| Message Type  | Recommended |
-| ------------- | ------------- |
-| Public Channel | :white_check_mark: | 
-| Private Channel | :white_check_mark: | 
-| Thread | :x: |
-| DM | :x: |
-| Group DM | :white_check_mark: |

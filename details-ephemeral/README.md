@@ -9,10 +9,16 @@
 
 * Providing a more detailed view for a notification
 
-## Required App functionality
+## Required features
 
 * [Bot User](https://api.slack.com/bot-users)
 * [Interactive Components](https://api.slack.com/interactive-messages)
+
+## Required scopes
+
+* [`bot`](https://api.slack.com/scopes/bot)
+
+## Implementation overview
 
 ### 1. Message notification
 
@@ -33,17 +39,4 @@
 
 * [`chat.postEphemeral`](https://api.slack.com/methods/chat.postEphemeral)
 
-## Recommended usage
-
-| Message Type  | Recommended |
-| ------------- | ------------- |
-| Public Channel | :white_check_mark: | 
-| Private Channel | :white_check_mark: | 
-| Thread | :x: |
-| DM | :white_check_mark: |
-| Group DM | :white_check_mark: |
-
-## List of required scopes
-
-* [`bot`](https://api.slack.com/scopes/bot)
 
