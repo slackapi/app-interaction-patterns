@@ -38,7 +38,7 @@ _Please note that this event only works in your app's DM._
 
 * [`app_home_opened`](https://api.slack.com/events/app_home_opened)
 
-## Implemenation overview
+## Implementation overview
 
 ### 1. Show a welcome message once users open your App's DM for the first time
 
