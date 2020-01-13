@@ -1,0 +1,93 @@
+{
+    "callback_id": "feedback",
+    "type": "modal",
+    "title": {
+        "type": "plain_text",
+        "text": "Give feedback",
+        "emoji": true
+    },
+    "submit": {
+        "type": "plain_text",
+        "text": "Submit",
+        "emoji": true
+    },
+    "close": {
+        "type": "plain_text",
+        "text": "Cancel",
+        "emoji": true
+    },
+    "blocks": [
+        {
+            "type": "input",
+            "element": {
+                "type": "users_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select your colleague",
+                    "emoji": true
+                }
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Select your colleague",
+                "emoji": true
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "plain_text_input",
+                "multiline": true,
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Enter your feedback here.",
+                    "emoji": true
+                }
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "What do you want to share?",
+                "emoji": true
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "static_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select an option",
+                    "emoji": true
+                },
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Private"
+                        },
+                        "value": "private"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Private + Manager"
+                        },
+                        "value": "private+manager"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Manager only"
+                        },
+                        "value": "manager"
+                    }
+                ]
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Visibility",
+                "emoji": true
+            }
+        }
+    ]
+}

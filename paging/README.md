@@ -1,4 +1,4 @@
-# Blueprint: Paging 
+# Paging 
 
 ![](paging.gif)  
 *Paging mechanism*

@@ -1,4 +1,4 @@
-# Blueprint: Create task from Message Action
+# Create task from Message Action
 
 ![](create-task.gif)  
 *Create task from Message Action*
@@ -20,13 +20,13 @@
 
 ## Implementation overview
 
-### 1. Open Dialog from Message Action
+### 1. Open modal from Message Action
 
-* [payload.json](payload-task-dialog.json)
+* [payload.json](payload-task-modal.json)
 
 #### Methods
 
-* [`dialog.open`](https://api.slack.com/methods/dialog.open)
+* [`views.open`](https://api.slack.com/methods/views.open)
 
 ### 2. Confirmation in thread
 

@@ -1,4 +1,4 @@
-# Blueprint: Private poll in a DM
+# Private poll in a DM
 
 ![](private-poll.gif)  
 *Private poll in channel*

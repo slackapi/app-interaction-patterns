@@ -1,0 +1,77 @@
+{
+  "type": "modal",
+  "callback_id": "request:reject",
+  "title": {
+    "type": "plain_text",
+    "text": "Reject request",
+    "emoji": true
+  },
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit",
+    "emoji": true
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Cancel",
+    "emoji": true
+  },
+  "blocks": [
+    {
+      "type": "input",
+      "element": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select a reason",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Out of policy"
+            },
+            "value": "reject:out-of-policy"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Invalid request"
+            },
+            "value": "reject:invalid-request"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Other"
+            },
+            "value": "reject:other"
+          }
+        ]
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Select a reason",
+        "emoji": true
+      }
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Comment",
+        "emoji": true
+      },
+      "hint": {
+        "type": "plain_text",
+        "text": "Provide additional information."
+      },
+      "optional": true
+    }
+  ]
+}

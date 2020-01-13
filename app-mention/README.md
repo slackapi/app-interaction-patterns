@@ -1,4 +1,4 @@
-# Blueprint: Help menu (`app_mention` event)
+# Help menu (`app_mention` event)
 
 ![](app-mention.gif)  
 *`app_mention` event example*

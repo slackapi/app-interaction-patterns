@@ -1,4 +1,4 @@
-# Blueprint: Perform search action
+# Perform search action
 
 ![](search.gif)  
 *Perform search action*
