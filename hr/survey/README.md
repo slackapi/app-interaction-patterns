@@ -1,4 +1,4 @@
-# Blueprint: HR Culture survey
+# HR Culture survey
 
 ![](hr-survey.gif)  
 *HR culture survey*

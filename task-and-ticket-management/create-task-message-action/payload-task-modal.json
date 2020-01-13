@@ -1,0 +1,129 @@
+{
+    "callback_id": "create_task",
+    "type": "modal",
+    "title": {
+        "type": "plain_text",
+        "text": "Create task",
+        "emoji": true
+    },
+    "submit": {
+        "type": "plain_text",
+        "text": "Submit",
+        "emoji": true
+    },
+    "close": {
+        "type": "plain_text",
+        "text": "Cancel",
+        "emoji": true
+    },
+    "blocks": [
+        {
+            "type": "input",
+            "element": {
+                "type": "plain_text_input"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Summary",
+                "emoji": true
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "plain_text_input",
+                "multiline": true,
+                "initial_value": "Can you please prepare the deck for our customer meeting tomorrow, David?\n\nhttps://workspace.slack.com/archives/CXXXXXXX/p1553819686001000"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Description",
+                "emoji": true
+            }
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "users_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select a user",
+                    "emoji": true
+                }
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Assignee",
+                "emoji": true
+            },
+            "optional": true
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "static_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select an option",
+                    "emoji": true
+                },
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": ":no_entry_sign: Critical",
+                            "emoji": true
+                        },
+                        "value": "critical"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": ":arrow_double_up: High",
+                            "emoji": true
+                        },
+                        "value": "high"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": ":arrow_up_small: Medium",
+                            "emoji": true
+                        },
+                        "value": "medium"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": ":arrow_down_small: Low",
+                            "emoji": true
+                        },
+                        "value": "low"
+                    }
+                ]
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Priority",
+                "emoji": true
+            },
+            "optional": true
+        },
+        {
+            "type": "input",
+            "element": {
+                "type": "multi_external_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select typing to see labels",
+                    "emoji": true
+                }
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Labels",
+                "emoji": true
+            }
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-# Blueprint: Public poll in channel
+# Public poll in channel
 
 ![](public-poll.gif)  
 *Public poll in channel*
