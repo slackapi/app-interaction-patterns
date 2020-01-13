@@ -1,4 +1,4 @@
-# Blueprint: Create task from Slash Command
+# Create task from Slash Command
 
 ![](create-task-slash-command.gif)  
 *Create task from Slash Command*
@@ -21,13 +21,13 @@
 
 ## Implementation overview
 
-### 1. Open Dialog through Slash Command
+### 1. Open modal through Slash Command
 
-* [payload.json](payload-task-dialog.json)
+* [payload.json](payload-task-modal.json)
 
 #### Methods
 
-* [`dialog.open`](https://api.slack.com/methods/dialog.open)
+* [`views.open`](https://api.slack.com/methods/views.open)
 
 ### 2. Confirmation in DM
 

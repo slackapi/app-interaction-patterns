@@ -1,4 +1,4 @@
-# Blueprint: HR time off request
+# HR time off request
 
 ![](hr-timeoff.gif)  
 *HR time off request*

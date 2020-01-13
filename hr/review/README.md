@@ -1,4 +1,4 @@
-# Blueprint: Peer review
+# Peer review
 
 ![](hr-review.gif)  
 *Peer review*
@@ -30,13 +30,13 @@
 
 * [`chat.postMessage`](https://api.slack.com/methods/chat.postMessage)
 
-### 2. Open Dialog to collect feedback
+### 2. Open modal to collect feedback
 
-* [payload.json](payload-dialog.json)
+* [payload.json](payload-modal.json)
 
 #### Methods
 
-* [`dialog.open`](https://api.slack.com/methods/dialog.open)
+* [`views.open`](https://api.slack.com/methods/views.open)
 
 ### 3. Post confirmation back to App DM
 

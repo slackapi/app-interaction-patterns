@@ -1,4 +1,4 @@
-# Blueprint: Onboarding (`app_home_opened` event)
+# Onboarding (`app_home_opened` event)
 
 ![](app-home-opened.gif)  
 *`app_home_opened` event example*

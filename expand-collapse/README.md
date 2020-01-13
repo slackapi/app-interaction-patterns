@@ -1,4 +1,4 @@
-# Blueprint: Expand & Collapse
+# Expand & Collapse
 
 ![](expand-collapse.gif)  
 *Expand & Collapse*

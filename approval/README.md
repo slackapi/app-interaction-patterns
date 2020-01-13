@@ -1,4 +1,4 @@
-# Blueprint: Approval
+# Approval
 
 ![](approval-confirm.gif)  
 *Approval confirmation*
@@ -45,13 +45,13 @@
 
 * [`chat.update`](https://api.slack.com/methods/chat.update)
 
-### 3. Approval rejection dialog
+### 3. Approval rejection modal
 
-* [payload.json](payload-approval-reject-dialog.json)
+* [payload.json](payload-approval-reject-modal.json)
 
 #### Methods
 
-* [`dialog.open`](https://api.slack.com/methods/dialog.open)
+* [`views.open`](https://api.slack.com/methods/views.open)
 
 ### 4. Approval rejection
 
