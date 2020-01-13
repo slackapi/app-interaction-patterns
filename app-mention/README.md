@@ -23,7 +23,9 @@ More information around `app_mention` can be found on our [API docs](https://api
 
 ## Required scopes
 
-* [`bot`](https://api.slack.com/scopes/bot)
+* [`app_mentions:read`](https://api.slack.com/scopes/app_mentions:read)
+* [`chat:write`](https://api.slack.com/scopes/chat:write)
+* [`reactions:write`](https://api.slack.com/scopes/reactions:write)
 
 ## Required event subscriptions
 

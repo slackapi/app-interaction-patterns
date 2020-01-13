@@ -1,9 +1,9 @@
-# Blueprint: Details View in ephemeral message
+# Details View in Thread
 
-![](details-ephemeral.gif)  
-*Details in ephemeral message*
+![](details-thread.gif)  
+*Details in Thread*
 
-🎥 [High Resolution screencast](details-ephemeral.mp4)
+🎥 [High Resolution screencast](details-thread.mp4)
 
 ### Examples
 
@@ -16,7 +16,7 @@
 
 ## Required scopes
 
-* [`bot`](https://api.slack.com/scopes/bot)
+* [`chat:write`](https://api.slack.com/scopes/chat:write)
 
 ## Implementation overview
 
@@ -30,13 +30,13 @@
 * [`chat.postMessage`](https://api.slack.com/methods/chat.postMessage)
 
 
-### 2. Ephemeral details message
+### 2. Thread details message
 
 * [payload.json](payload-details.json)
-* [Open in Block Kit Builder](https://api.slack.com/tools/block-kit-builder?blocks=%5B%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22*Name*%5CnDavid%20Pichsenmeister%5Cn%5Cn*Email*%5Cn%3Cfakelink.toUser.com%7Cdavidpichsenmeister%40example.com%3E%5Cn%5Cn*Company*%5CnDemo%20Corp%5Cn%5Cn*Product%20Interest*%5CnMarketing%20Automation%5Cn%5Cn*What%27s%20your%20company%27s%20website%3F*%5Cn%3Cfakelink.toUser.com%7Cdemo-corp.com%3E%5Cn%5Cn*How%20many%20people%20are%20employed%20at%20your%20company%3F*%5Cn1500-2000%5Cn%5Cn*Which%20tools%20are%20you%20currently%20using%3F*%5CnSalesforce%2C%20Hubspot%5Cn%5Cn*Are%20you%20interested%20in%20a%20demo%3F*%5CnYes%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22button%22%2C%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22View%20on%20Web%20%3Aarrow_upper_right%3A%22%2C%22emoji%22%3Atrue%7D%2C%22value%22%3A%22click_me_123%22%7D%7D%2C%7B%22type%22%3A%22context%22%2C%22elements%22%3A%5B%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%3Acalendar%3A%20*Date%3A*%20May%2017%2C%202019%203%3A14pm%22%7D%2C%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%3Aenvelope_with_arrow%3A%20*Inbound%3A*%20Website%22%7D%5D%7D%2C%7B%22type%22%3A%22divider%22%7D%2C%7B%22type%22%3A%22actions%22%2C%22elements%22%3A%5B%7B%22type%22%3A%22users_select%22%2C%22placeholder%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Assign%20to%22%2C%22emoji%22%3Atrue%7D%7D%2C%7B%22type%22%3A%22channels_select%22%2C%22placeholder%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Post%20to%20channel%22%2C%22emoji%22%3Atrue%7D%7D%5D%7D%5D)
+* [Open in Block Kit Builder](https://api.slack.com/tools/block-kit-builder?blocks=%5B%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22*What%27s%20your%20company%27s%20website%3F*%5Cn%3Cfakelink.toUser.com%7Cdemo-corp.com%3E%5Cn%5Cn*How%20many%20people%20are%20employed%20at%20your%20company%3F*%5Cn1500-2000%5Cn%5Cn*Which%20tools%20are%20you%20currently%20using%3F*%5CnSalesforce%2C%20Hubspot%5Cn%5Cn*Are%20you%20interested%20in%20a%20demo%3F*%5CnYes%22%7D%7D%5D)
 
 #### Methods
 
-* [`chat.postEphemeral`](https://api.slack.com/methods/chat.postEphemeral)
+* [`chat.postMessage`](https://api.slack.com/methods/chat.postMessage)
 
 

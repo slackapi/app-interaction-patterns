@@ -1,4 +1,4 @@
-# Onboarding (`app_home_opened` event)
+# Onboarding in message tab (`app_home_opened` event)
 
 ![](app-home-opened.gif)  
 *`app_home_opened` event example*
@@ -31,7 +31,8 @@ _Please note that this event only works in your app's DM._
 
 ## Required scopes
 
-* [`bot`](https://api.slack.com/scopes/bot)
+* [`im:history`](https://api.slack.com/scopes/im:history)
+* [`chat:write`](https://api.slack.com/scopes/chat:write)
 
 ## Required event subscriptions
 
@@ -128,7 +129,7 @@ Content-type: application/json; charset=utf-8
 
 ### 2a. Request `im.history`
 
-To query the history for existing messages, you can use 
+To query the history for existing messages, you can use the `im.history` method.
 
 #### Methods
 

@@ -16,7 +16,7 @@
 
 ## Required scopes
 
-* [`bot`](https://api.slack.com/scopes/bot)
+* [`chat:write`](https://api.slack.com/scopes/chat:write)
 
 ## Implementation overview
 
